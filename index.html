@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>喵帕斯千川上传 — 隐私政策</title>
+  <style>
+    body{margin:0;background:#faf8fa;color:#303039;font-family:system-ui,"Microsoft YaHei",sans-serif;line-height:1.85}
+    main{max-width:800px;margin:40px auto;padding:32px;background:#fff;border:1px solid #eee;border-radius:14px}
+    h1{font-size:26px;line-height:1.5}h2{margin-top:28px;font-size:19px}a{color:#a93a70}
+    .meta{color:#666;font-size:14px}li{margin:8px 0}
+    @media(max-width:600px){main{margin:0;padding:22px;border:0;border-radius:0}}
+  </style>
+</head>
+<body>
+<main>
+  <h1>喵帕斯千川上传 — 隐私政策</h1>
+  <p class="meta">更新及生效日期：2026年10月8日<br>适用版本：喵帕斯千川上传（测试版 v0.1.0）<br>开发者：miaoopasi（GitHub：styleyun）</p>
+  <p>本扩展是用于 Microsoft Edge 的第三方视频素材批量上传辅助工具，并非千川或巨量引擎官方产品。本政策说明扩展处理的数据、用途、存储位置及用户控制方式。</p>
+
+  <h2>一、处理哪些数据，为什么处理</h2>
+  <ul>
+    <li><strong>用户选择的本地文件：</strong>仅在用户通过文件选择器选择视频或导入排除名单后，处理相关文件。视频文件名、大小及视频内容用于上传；导入名单中的文件名用于排除对应素材。扩展不会自行扫描未选择的本地文件或文件夹。</li>
+    <li><strong>支持网站的页面内容：</strong>读取上传控件、素材名称、上传状态和素材列表，以分批上传、核对成功结果和执行确认操作。范围限于 qianchuan.jinritemai.com、ad.oceanengine.com 和 business.oceanengine.com。</li>
+    <li><strong>本地使用记录及设置：</strong>保存已上传文件的文件名与大小组合，用于去重；保存批次大小、定时任务设置与执行标记、面板位置，用于保留设置与避免同一时段重复执行。队列及操作日志也会在页面运行期间用于显示任务进度。</li>
+  </ul>
+  <p>当前版本不读取用户密码或 Cookie，不收集浏览历史、地理位置、健康信息，也不进行广告追踪、键盘记录或跨网站行为分析。扩展本身不要求注册作者账户。</p>
+
+  <h2>二、数据存储和传输</h2>
+  <p>持久化设置与去重记录使用 chrome.storage.local 存储在用户的浏览器本地，视频文件内容不存入该存储。页面运行期间的队列和日志通常在页面关闭或刷新后释放。</p>
+  <p>视频上传由用户主动选择文件并启动任务后，通过目标平台原有上传流程处理，平台接收视频与相关素材信息，并适用其自身隐私政策。扩展操作仍需要用户具备目标平台的登录状态及相应权限。</p>
+  <p>当前版本未启用作者服务器的授权验证，不将视频、去重记录、设置或页面素材数据发送至开发者服务器，不使用分析或广告 SDK。开发者不出售这些数据，不将其用于与上传辅助功能无关的目的，也不用于信用评估或贷款。</p>
+
+  <h2>三、自愿打赏和邮件反馈</h2>
+  <p>扩展提供作者的微信收款码。打赏完全自愿，不影响扩展功能；扫码、金额填写及付款在微信中完成。扩展不生成支付订单，不读取、保存或验证用户付款结果。微信会按照其规则处理支付信息；作者作为收款方可能在微信中看到交易记录及微信实际展示的付款方信息。</p>
+  <p>用户主动发送反馈邮件时，作者会收到邮件地址、正文及用户提供的附件，并仅用于处理问题、回复及改进建议。请勿发送密码、支付凭据或不必要的敏感信息。如需删除作者持有的反馈邮件，可通过下述邮箱联系；依法必须保留的记录除外。</p>
+
+  <h2>四、用户控制和保留期限</h2>
+  <ul>
+    <li>可停止上传、清空上传队列、清空排除名单，或使用“清除已传记录”删除本地去重记录。</li>
+    <li>可修改批次和定时设置、关闭定时任务。已经传至平台的素材需在平台中管理或删除，清除扩展记录不会删除平台素材。</li>
+    <li>本地持久化记录保留至用户清除相关记录或卸载扩展；卸载会移除扩展的浏览器本地存储。用户自行导出的记录文件需自行删除。</li>
+    <li>可禁用或卸载扩展以停止其后续处理。已提交的平台上传和已完成的微信付款不因此撤回。</li>
+  </ul>
+
+  <h2>五、此隐私政策网页</h2>
+  <p>此页面拟通过 GitHub Pages 托管，不包含分析脚本、支付功能或反馈表单。访问时 GitHub 可能按其隐私政策处理 IP 地址及访问日志；这些托管日志并非扩展向作者服务器发送的数据。参见 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 隐私声明</a>。</p>
+
+  <h2>六、政策变更与联系</h2>
+  <p>如扩展的数据处理方式发生变化，将更新本政策及商店申报；如新增需要同意的数据处理，将在处理前提供相应说明并取得必要同意。</p>
+  <p>隐私问题、反馈或删除请求：<a href="mailto:1547861466@qq.com">1547861466@qq.com</a>。</p>
+</main>
+</body>
+</html>
